@@ -6,177 +6,190 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, Lab1, Web Programming">
     <meta name="author" content="Tran Hoang Nam">
-    <title>Mobile phone shop</title>
+    <title>Nam - Mobile phone shop</title>
+    <link rel="stylesheet" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <!--Body-->
 <body>
-<!--HEADER part-->
-<header id="header">
-    <div class="h_left">
-        <img
-                src="imgs/logo.png"
-                height="150px"
-                width="150px"
-                alt="loading"
-        />
+    <div class="app">
+        <!--HEADER part-->
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--separate">
+                            <a href="#" class="header__navbar-item-link">Open in mobile app</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-item-tittle">Connect</span>
+                            <a href="#" class="header__navbar-item-link--icon">
+                                <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="#" class="header__navbar-item-link--icon">
+                                <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-regular fa-bell"></i>
+                                Notification
+                            </a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="#" class="header__navbar-item-link">
+                                <i class="header__navbar-icon fa-solid fa-question"></i>
+                                Help
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+                            <a href="#" class="header__navbar-item-link">Sign up</a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <a href="#" class="header__navbar-item-link">Sign in</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--header with search-->
+                <div class="header-search">
+                    <img src="./assets/imgs/logo.svg" alt="logo" class="header__logo"/>
+                    <div class="header__search">
+                        <input type="text" class="header__search-input" placeholder="Search product">
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="header__cart">
+                        <i class="header__cart-icon fa-regular fa-cart-shopping"></i>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--MENU part-->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a class="nav-list__item-tittle" href="#">Apple</a></li>
+                <li class="nav-list__item"><a class="nav-list__item-tittle" href="#">Samsung</a></li>
+                <li class="nav-list__item"><a class="nav-list__item-tittle" href="#">Huawei</a></li>
+                <li class="nav-list__item"><a class="nav-list__item-tittle" href="#">Xiaomi</a></li>
+            </ul>
+        </nav>
+
+        <!--MAIN part-->
+        <main class="main">
+            <!--Apple product introduction-->
+            <article class="main__element">
+                <h1 class="main__element-tittle">Apple products</h1>
+                <img
+                        class="main__element-img"
+                        src="./assets/imgs/apple.png"
+                        alt="loading"
+                />
+                <p class="main__element-content">
+                    A company that has grown by 15000% since 2001 should be doing something that most of the others aren’t
+                    doing. Interested to know the name and other details of such a company? Well, it is the most famous
+                    company that we know today, i.e. Apple Inc. There must be a long history of Apple. Like all other
+                    companies, there would be a point where the company would have been started, then passed numerous phases
+                    to reach to the current stage where Apple computers and other products are known as the trademark of
+                    quality.
+                </p>
+                <p class="main__element-content">
+                    Apple is amongst the top few companies in the IT sector. You don’t particularly have to go through the
+                    internet to find out the current level of success of Apple Inc. rather you can just have a look around
+                    you to find a number of Apple products. Whether they are in the form of iPhone, iPad, MacBook, or macOS,
+                    each of the products has an established market. If you are wondering about the profit that Apple
+                    Incorporation earns, then you’ll be amazed to know that Apple Inc. has made a profit of US$59.531
+                    billion in the year 2018.
+                </p>
+            </article>
+            <!--Samsung product introduction-->
+            <article class="main__element">
+                <h1 class="main__element-tittle">Samsung products</h1>
+                <img class="main__element-img" src="./assets/imgs/samsung.png" alt="loading"/>
+                <p class="main__element-content">
+                    Samsung Electronics Co Ltd (KRX: 005930), apart from being one of the biggest smartphone brands in the
+                    world, also makes and sells computer chips and displays as well as home appliances and televisions. It
+                    is based in Seoul, South Korea. The company has enjoyed enormous growth in recent years driven by its
+                    market-leading position, strong innovative capabilities as well as product quality. It has brought a
+                    vast range of smartphones in various price segments. The Galaxy smartphone range by Samsung enjoys a
+                    leading position in the category of premium smartphones. Galaxy is also among the leading competitors
+                    of Apple’s iPhone.
+                </p>
+                <p class="main__element-content">
+                    The growth of the company has been driven by several factors including a superior brand image,
+                    marketing, product quality as well as its focus on research and development. The technology industry is
+                    experiencing intense competition. From Apple to Huawei, Xiaomi, and several more, there are many strong
+                    competitors of Samsung in the global markets. However, despite the intense competition, Samsung enjoys a
+                    strong position in the US market. Years of consistent focus on product quality, as well as research and
+                    development, have helped the brand grow its popularity faster. According to its annual report for 2019,
+                    the company generated net revenue of 230.4 Trillion Korean Won or 197.7 Billion USD (Samsung Annual
+                    Report, 2019).
+                </p>
+            </article>
+            <!--Huawei product introduction-->
+            <article class="main__element">
+                <h1 class="main__element-tittle">Huawei products</h1>
+                <img class="main__element-img" src="./assets/imgs/huawei.png" alt="loading"/>
+                <p class="main__element-content">
+                    Founded in 1987, Huawei is a leading global provider of information and communications technology (ICT)
+                    infrastructure and smart devices. We have approximately 195,000 employees, and we operate in over 170
+                    countries and regions, serving more than three billion people around the world.
+                </p>
+                <p class="main__element-content">
+                    Huawei's mission is to bring digital to every person, home and organization for a fully connected,
+                    intelligent world. To this end, we will drive ubiquitous connectivity and promote equal access to
+                    networks to lay the foundation for the intelligent world; provide diversified computing power to deliver
+                    ubiquitous cloud and intelligence; build powerful digital platforms to help all industries and
+                    organizations become more agile, efficient, and dynamic; redefine user experience with AI, offering
+                    consumers a more personalized and intelligent experience across all scenarios, including home, travel,
+                    office, entertainment, and fitness & health.
+                </p>
+            </article>
+            <!--Xiaomi product introduction-->
+            <article class="main__element">
+                <h1 class="main__element-tittle">Xiaomi products</h1>
+                <img class="main__element-img" src="./assets/imgs/xiaomi.png" alt="loading"/>
+                <p class="main__element-content">
+                    Xiaomi Corporation (“Xiaomi”) was founded in April 2010 and listed on the Main Board of the Hong Kong
+                    Stock Exchange on July 9, 2018 (1810.HK). Xiaomi is a consumer electronics and smart manufacturing
+                    company with smartphones and smart hardware connected by an IoT platform at its core.
+                </p>
+                <p class="main__element-content">
+                    Embracing our vision of “Make friends with users and be the coolest company in the users’ hearts”,
+                    Xiaomi continuously pursues innovations, high-quality user experience and operational efficiency. The
+                    company relentlessly builds amazing products with honest pricesto let everyone in the world enjoy a
+                    better life through innovative technology.
+                </p>
+                <p class="main__element-content">
+                    Xiaomi products are available in more than 100 countries and regions around the world. In August 2022,
+                    the company made the Fortune Global 500 list for the fourth time, ranking 266th, up 72 places compared
+                    to 2021.
+                </p>
+            </article>
+        </main>
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="footer__contact">
+                <h3 class="footer__contact-tittle">Contact me:</h3>
+                <p class="footer__mail">
+                    Email: <a class="footer__email-address" href="mailto:k59tranhoangnam@gmail.com"> k59tranhoangnam@gmail.com</a>
+                </p>
+                <p class="footer__phone-number">
+                    Phone number: <a class="footer__phone-number" href="tel: +79531411386">+7 (953) 141 13 86</a>
+                </p>
+            </div>
+            <div class="footer__additional">
+                <i>Copyright by: <b>Tran Hoang Nam</b></i>
+                <br/>
+                <em><i>Contact admin for Copy</i></em>
+            </div>
+        </footer>
     </div>
-    <div class="h_center">
-        <form>
-            <label>Search bar:<input type="text" name="search"></label>
-            <input type="submit" name="submit" value="search">
-        </form>
-    </div>
-    <div class="h_right">
-        <form>
-            <h3> Login </h3>
-            <label>Username: <input type="text" name="username" required></label>
-            <br />
-            <label>Password: <input type="password" name="password" required></label>
-            <br />
-            <input type="submit" name="submit" value="Login">
-        </form>
-    </div>
-</header>
-<!--MENU part-->
-<hr />
-<nav>
-    <ul>
-        <li><a href="#">Apple</a></li>
-        <li><a href="#">Samsung</a></li>
-        <li><a href="#">Huawei</a></li>
-        <li><a href="#">Xiaomi</a></li>
-    </ul>
-</nav>
-<!--MAIN part-->
-<hr />
-<main>
-    <!--Apple product introduction-->
-    <article>
-        <h1>Apple products</h1>
-        <img
-                src="imgs/apple.png"
-                height="500px"
-                width="1000px"
-                alt="loading"
-        />
-        <p>
-            A company that has grown by 15000% since 2001 should be doing something that most of the others aren’t
-            doing. Interested to know the name and other details of such a company? Well, it is the most famous
-            company that we know today, i.e. Apple Inc. There must be a long history of Apple. Like all other
-            companies, there would be a point where the company would have been started, then passed numerous phases
-            to reach to the current stage where Apple computers and other products are known as the trademark of
-            quality.
-        </p>
-        <p>
-            Apple is amongst the top few companies in the IT sector. You don’t particularly have to go through the
-            internet to find out the current level of success of Apple Inc. rather you can just have a look around
-            you to find a number of Apple products. Whether they are in the form of iPhone, iPad, MacBook, or macOS,
-            each of the products has an established market. If you are wondering about the profit that Apple
-            Incorporation earns, then you’ll be amazed to know that Apple Inc. has made a profit of US$59.531
-            billion in the year 2018.
-        </p>
-    </article>
-    <!--Samsung product introduction-->
-    <hr />
-    <article>
-        <h1>Samsung products</h1>
-        <img
-                src="imgs/samsung.png"
-                height="500px"
-                width="1000px"
-                alt="loading"
-        />
-        <p>
-            Samsung Electronics Co Ltd (KRX: 005930), apart from being one of the biggest smartphone brands in the
-            world, also makes and sells computer chips and displays as well as home appliances and televisions. It
-            is based in Seoul, South Korea. The company has enjoyed enormous growth in recent years driven by its
-            market-leading position, strong innovative capabilities as well as product quality. It has brought a
-            vast range of smartphones in various price segments. The Galaxy smartphone range by Samsung enjoys a
-            leading position in the category of premium smartphones. Galaxy is also among the leading competitors
-            of Apple’s iPhone.
-        </p>
-        <p>
-            The growth of the company has been driven by several factors including a superior brand image,
-            marketing, product quality as well as its focus on research and development. The technology industry is
-            experiencing intense competition. From Apple to Huawei, Xiaomi, and several more, there are many strong
-            competitors of Samsung in the global markets. However, despite the intense competition, Samsung enjoys a
-            strong position in the US market. Years of consistent focus on product quality, as well as research and
-            development, have helped the brand grow its popularity faster. According to its annual report for 2019,
-            the company generated net revenue of 230.4 Trillion Korean Won or 197.7 Billion USD (Samsung Annual
-            Report, 2019).
-        </p>
-    </article>
-    <!--Huawei product introduction-->
-    <hr />
-    <article>
-        <h1>Huawei products</h1>
-        <img
-                src="imgs/huawei.png"
-                height="500px"
-                width="1000px"
-                alt="loading"
-        />
-        <p>
-            Founded in 1987, Huawei is a leading global provider of information and communications technology (ICT)
-            infrastructure and smart devices. We have approximately 195,000 employees, and we operate in over 170
-            countries and regions, serving more than three billion people around the world.
-        </p>
-        <p>
-            Huawei's mission is to bring digital to every person, home and organization for a fully connected,
-            intelligent world. To this end, we will drive ubiquitous connectivity and promote equal access to
-            networks to lay the foundation for the intelligent world; provide diversified computing power to deliver
-            ubiquitous cloud and intelligence; build powerful digital platforms to help all industries and
-            organizations become more agile, efficient, and dynamic; redefine user experience with AI, offering
-            consumers a more personalized and intelligent experience across all scenarios, including home, travel,
-            office, entertainment, and fitness & health.
-        </p>
-    </article>
-    <!--Xiaomi product introduction-->
-    <hr />
-    <article>
-        <h1>Xiaomi products</h1>
-        <img
-                src="imgs/xiaomi.png"
-                height="500px"
-                width="1000px"
-                alt="loading"
-        />
-        <p>
-            Xiaomi Corporation (“Xiaomi”) was founded in April 2010 and listed on the Main Board of the Hong Kong
-            Stock Exchange on July 9, 2018 (1810.HK). Xiaomi is a consumer electronics and smart manufacturing
-            company with smartphones and smart hardware connected by an IoT platform at its core.
-        </p>
-        <p>
-            Embracing our vision of “Make friends with users and be the coolest company in the users’ hearts”,
-            Xiaomi continuously pursues innovations, high-quality user experience and operational efficiency. The
-            company relentlessly builds amazing products with honest pricesto let everyone in the world enjoy a
-            better life through innovative technology.
-        </p>
-        <p>
-            Xiaomi products are available in more than 100 countries and regions around the world. In August 2022,
-            the company made the Fortune Global 500 list for the fourth time, ranking 266th, up 72 places compared
-            to 2021.
-        </p>
-    </article>
-</main>
-<!--FOOTER-->
-<hr />
-<footer id="footer">
-    <h3>Contact me:</h3>
-    <a href="mailto:k59tranhoangnam@gmail.com"> k59tranhoangnam@gmail.com</a>
-    <br />
-    <a href="tel: +79531411386">+7 (953) 141 13 86</a>
-    <br />
-    <i>Copyright by: <b>Tran Hoang Nam</b></i>
-    <br />
-    <em><i>Contact admin for Copy</i></em>
-    <pre>
-            | \ | |
-            |  \| | __ _ _ __ ___
-            | . ` |/ _` | '_ ` _ \
-            | |\  | (_| | | | | | |
-            |_| \_|\__,_|_| |_| |_|
-        </pre>
-</footer>
 </body>
 </html>
