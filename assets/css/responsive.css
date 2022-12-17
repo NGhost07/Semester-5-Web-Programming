@@ -1,0 +1,139 @@
+/*PC*/
+@media only screen and (min-width: 1024px) {
+    .header__login{
+        display: none;
+    }
+}
+
+/*Tablet*/
+@media only screen and (max-width: 1023px){
+    .header__navbar{
+        display: none;
+    }
+
+    .header{
+        height: var(--header-height-tablet);
+    }
+
+    .header-search{
+        justify-content: space-around;
+    }
+
+    .header__logo{
+        height: 84px;
+    }
+
+    .header__search{
+        height: 50px;
+        width: 550px;
+        margin-bottom: 20px;
+    }
+
+    .header__search-input{
+        font-size: 2rem;
+    }
+
+    .header__search-btn{
+        margin-right: 5px;
+    }
+
+    .header__cart-icon{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .header__login{
+        color: #78bace;
+        font-size: 3rem;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header__login:hover{
+        cursor: pointer;
+        color: rgb(255, 255, 255, 0.5);
+        transform: translateY(-1px);
+    }
+
+    /*app__container*/
+
+    .btn{
+        min-width: 90px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .category__heading{
+        font-size: 1.8rem;
+        margin-top: -12px;
+    }
+
+    .category__heading-icon{
+        display: none;
+    }
+
+    .select-input{
+        min-width: 150px;
+    }
+
+    .home-filter__label{
+        margin-right: 10px;
+    }
+
+    /*Product item*/
+    .grid__column-2-4{
+        width: 50%;
+    }
+
+    .grid__column-2-4-none{
+        display: none;
+    }
+
+    .footer{
+        padding-left: 20px;
+    }
+}
+
+/*Mobile*/
+@media only screen and (max-width: 739px) {
+    .grid__column-2{
+        display: none;
+    }
+
+    .header{
+        height: 50px;
+    }
+
+    .header__logo{
+        height: 50px;
+        margin-right: 0;
+        margin-bottom: 45px;
+    }
+
+    .header__search{
+        display: none;
+    }
+
+    .header__cart-icon{
+        font-size: 2rem;
+        margin-bottom: 45px;
+    }
+
+    .header__login{
+        color: #78bace;
+        font-size: 2rem;
+        margin-bottom: 45px;
+    }
+
+    .home-filter{
+        display: none;
+    }
+
+    .grid__row{
+        padding: 0;
+    }
+
+    .grid__column-10{
+        width: 100%;
+    }
+}
