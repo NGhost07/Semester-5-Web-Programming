@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, Lab1, Web Programming">
     <meta name="author" content="Tran Hoang Nam">
-    <title>Nam - Mobile phone shop - Xiaomi</title>
+    <title>Nam - Mobile phone shop - Todo List</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/todoList.css">
 </head>
 <body>
 <div class="app">
@@ -100,17 +101,32 @@
                             <li class="category-item">
                                 <a href="./huawei.html" class="category-item__link">Huawei</a>
                             </li>
-                            <li class="category-item category-item--active">
+                            <li class="category-item">
                                 <a href="./xiaomi.html" class="category-item__link">Xiaomi</a>
                             </li>
-                            <li class="category-item">
+                            <li class="category-item category-item--active">
                                 <a href="./todoList.html" class="category-item__link">Todo List</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div class="grid__column-10">
-                    <h3 class="tmp">This is Xiaomi page</h3>
+                    <div class="wrapper">
+                        <div class="task-input">
+                            <i class="fa-solid fa-list-ul"></i>
+                            <input type="text" placeholder="Add new task">
+                        </div>
+                        <div class="controls">
+                            <div class="filters">
+                                <span class="active" id="all">All</span>
+                                <span id="pending">Pending</span>
+                                <span id="completed">Completed</span>
+                            </div>
+                            <button class="clear-btn">Clear All</button>
+                        </div>
+                        <ul class="task-box">
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -198,6 +214,7 @@
     </footer>
 </div>
 <script src="./assets/js/main.js"></script>
+<script src="./assets/js/todoList.js"></script>
 <h3 class="load-time-title">Page load time in JavaScript</h3>
 <div>
     <span id="load-time"></span>
