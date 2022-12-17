@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!--Head-->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, Lab1, Web Programming">
+    <meta name="author" content="Tran Hoang Nam">
+    <title>Nam - Mobile phone shop - Apple</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+<div class="app">
+    <!--HEADER part-->
+    <header class="header">
+        <div class="grid">
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item-link">Open in mobile app</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <span class="header__navbar-item-tittle">Connect</span>
+                        <a href="#" class="header__navbar-item-link--icon">
+                            <i class="header__navbar-icon fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="header__navbar-item-link--icon">
+                            <i class="header__navbar-icon fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fa-regular fa-bell"></i>
+                            Notification
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fa-solid fa-question"></i>
+                            Help
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item-link header__navbar-item--strong">Sign up</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#" class="header__navbar-item-link header__navbar-item--strong">Sign in</a>
+                    </li>
+                </ul>
+            </nav>
+            <!--header with search-->
+            <div class="header-search">
+                <img src="./assets/imgs/logo.svg" alt="logo" class="header__logo"/>
+                <div class="header__search">
+                    <input type="text" class="header__search-input" placeholder="Search product">
+                    <button class="header__search-btn">
+                        <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="header__cart">
+                    <i class="header__cart-icon fa-regular fa-cart-shopping"></i>
+                </div>
+                <div class="header__login">
+                    <i class="header__login-right-to-bracket fa-solid fa-right-to-bracket"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="app__container">
+        <div class="grid">
+            <div class="grid__row app__content">
+                <div class="grid__column-2">
+                    <nav class="category">
+                        <h3 class="category__heading">
+                            <i class="category__heading-icon fa-regular fa-list"></i>
+                            Category
+                        </h3>
+                        <ul class="category-list">
+                            <li class="category-item">
+                                <a href="./index.html" class="category-item__link">Home</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="./apple.html" class="category-item__link">Apple</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="./samsung.html" class="category-item__link">Samsung</a>
+                            </li>
+                            <li class="category-item category-item--active">
+                                <a href="./huawei.html" class="category-item__link">Huawei</a>
+                            </li>
+                            <li class="category-item">
+                                <a href="./xiaomi.html" class="category-item__link">Xiaomi</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="grid__column-10">
+                    <h3 class="tmp">This is Huawei page</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Customer care</h3>
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">Help Center</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">Email</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">Online shopping guide</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">About us</h3>
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">Introduce</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">Become a partner</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">Terms of Service</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4 grid__column-2-4-none"></div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Customer care</h3>
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-instagram"></i>
+                                Instagram
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-telegram"></i>
+                                Telegram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Access on the app</h3>
+                    <ul class="footer__list">
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-app-store"></i>
+                                App Store
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#" class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-google-play"></i>
+                                Google Play
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="grid">
+                <p class="footer__text">2022 - Copyright belongs to our company NAM</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="./assets/js/main.js"></script>
+    <h3 class="load-time-title">Page load time in JavaScript</h3>
+    <div>
+        <span id="load-time"></span>
+    </div>
+</body>
