@@ -1,9 +1,5 @@
 /*PC*/
 @media only screen and (min-width: 1024px) {
-    .header-tablet{
-        display: none;
-    }
-
     .header__login{
         display: none;
     }
@@ -91,6 +87,10 @@
 
     .grid__column-2-4-none{
         display: none;
+    }
+
+    .footer{
+        padding-left: 20px;
     }
 }
 

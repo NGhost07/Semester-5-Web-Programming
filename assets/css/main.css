@@ -258,9 +258,12 @@
     font-weight: 400;
     color: var(--text-color);
     line-height: 1.8rem;
+    height: 1.8rem;
     margin: 10px;
-    display: flex;
-    justify-content: center;
+    overflow: hidden;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .home-product-item__price{
@@ -329,4 +332,18 @@
     margin: 0;
     text-align: center;
     font-size: 1.4rem;
+}
+
+.load-time-title{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 2rem;
+    color: #3333CC;
+    margin-left: 50px;
+}
+
+#load-time{
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 50px;
 }
